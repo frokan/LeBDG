@@ -57,18 +57,7 @@
                         qui est le stream et de vous la partager, entre les jeux vidéos, les émissions, le développement et le just chatting, Le Bistro des Gamers se voit être une structure 
                         très diversifiée sur son contenu. 
                     </p>
-                    <!-- Add a placeholder for the Twitch embed -->
-<div id="twitch-embed"></div>
-
-<!-- Load the Twitch embed script -->
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
-
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    channel: "lebistrodesgamers"
-  });
-</script>
+                    <iframe src="https://player.twitch.tv/?channel=lebistrodesgamers&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
                 </section>
             </article>
             <!-- LIVE -->
